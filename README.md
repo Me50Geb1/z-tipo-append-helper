@@ -85,7 +85,6 @@ Z-Tipo本体で現在選択されているモデルを使用します。
 
 ユーザー設定はローカルの `settings.json` に保存されます。
 
-`settings.json` はGit管理対象から除外されているため、通常はGitHubへアップロードされません。
 
 ## Compatibility
 
