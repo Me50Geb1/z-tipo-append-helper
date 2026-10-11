@@ -1,5 +1,11 @@
 # Changelog
 
+## Forge Neo 2.30 compatibility - 2026-10-11
+
+- Follow the relocated attention parser in Forge Neo 2.30
+- Keep the legacy parser import as a fallback for older versions
+- UI display confirmed on Forge Neo 2.30; TIPO inference remains unverified
+
 ## 1.0.0 - 2026-09-01
 
 Initial public release.

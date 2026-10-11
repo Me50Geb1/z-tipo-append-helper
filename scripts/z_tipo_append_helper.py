@@ -10,7 +10,11 @@ import gradio as gr
 import torch
 from modules import devices, scripts, shared
 from modules.extra_networks import parse_prompt
-from modules.prompt_parser import parse_prompt_attention
+try:
+    # Forge Neo 2.30 moved attention parsing into the text-processing backend.
+    from backend.text_processing.parsing import parse_prompt_attention
+except ImportError:
+    from modules.prompt_parser import parse_prompt_attention
 from modules.scripts import OnComponent, basedir
 
 # --- Locate original z-tipo extension so we can reuse its installer/runtime ---

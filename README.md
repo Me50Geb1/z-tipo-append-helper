@@ -88,6 +88,10 @@ Z-Tipo本体で現在選択されているモデルを使用します。
 
 ## Compatibility
 
+Forge Neo 2.30でのUI表示を確認済みです。重み付きPromptの解析関数の移動に対応し、
+旧版の解析関数にもフォールバックします。TIPO推論の実動作は未確認です。
+Z-Tipo本体とその推論環境は別途必要です。
+
 Main target:
 
 - sd-webui-forge-neo
